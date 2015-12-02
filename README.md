@@ -20,9 +20,10 @@ charAt
 9. If coordinate is undefined, 0,0
 clip:rect
 10. Identity function
-    <xsl:template match="." mode="M">
-      <xsl:copy>
-        <xsl:apply-templates select="@*" mode="M"/>
-        <xsl:apply-templates select="node()" mode="M"/>
-      </xsl:copy>
-    </xsl:template>
+<pre>
+    function Ya(a)
+      {
+      "use strict";
+      return a;
+      }
+</pre>
