@@ -2,28 +2,28 @@
 Testify to the API
 
 1. If no net, call mock
-img alt
+<pre>img alt</pre>
 2. If method undefined, reify
-No memory => password save
+    <pre>No memory => password save</pre>
 3. If arg is undefined, call spy
-No piv => silhouette
+    <pre>No piv => silhouette</pre>
 4. If global undefined, call stub
-No profile => random user
+    <pre>No profile => random user</pre>
 5. If module is undefined, alert
-No Script => <noscript>
+    <pre>No Script => &lt;noscript&gt;</pre>
 6. If var is undefined, warn
-JSHint
+    <pre>JSHint</pre>
 7. If copy is undefined, lorem
-foo || 'hi'
+    <pre>foo || 'hi'</pre>
 8. If codepoint is undefined, space
-charAt
+    <pre>charAt</pre>
 9. If coordinate is undefined, 0,0
-clip:rect
+    <pre>clip:rect</pre>
 10. Identity function
-<pre>
+    <pre>
     function Ya(a)
       {
       "use strict";
       return a;
       }
-</pre>
+    </pre>
