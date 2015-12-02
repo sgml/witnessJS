@@ -20,4 +20,9 @@ charAt
 9. If coordinate is undefined, 0,0
 clip:rect
 10. Identity function
-<xsl:apply-templates select="@*|node()"/>
+    <xsl:template match="." mode="M">
+      <xsl:copy>
+        <xsl:apply-templates select="@*" mode="M"/>
+        <xsl:apply-templates select="node()" mode="M"/>
+      </xsl:copy>
+    </xsl:template>
