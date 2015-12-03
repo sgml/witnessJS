@@ -27,3 +27,7 @@ Testify to the API
       return a;
       }
     </pre>
+
+Dependencies
+https://www.npmjs.com/package/jsfile-ooxml
+https://www.npmjs.com/package/docco
