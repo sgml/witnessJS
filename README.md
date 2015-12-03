@@ -29,5 +29,7 @@ Testify to the API
     </pre>
 
 Dependencies
-https://www.npmjs.com/package/jsfile-ooxml
-https://www.npmjs.com/package/docco
+
+* https://www.npmjs.com/package/jsfile-ooxml
+
+* https://www.npmjs.com/package/docco
