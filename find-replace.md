@@ -4,4 +4,4 @@ Find:
     
 Replace:
 
-    it\('$1', Function\);
+    it\('$1', Function\(\)\);
